@@ -217,12 +217,13 @@ span::selection {
 .site-section {
     width: 100%;
     height: 846px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .site-section1 {
     margin: 0px auto;
-    width: 3.25%;
-    height: 1.5px;
+    width: 22%;
+    height: 2px;
     background-color: #4ebe2a;
 }
 
@@ -244,6 +245,7 @@ span::selection {
     height: 212px;
     color: rgb(121, 138, 154);
     line-height: 27px;
+    padding: 20px;
     box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
 }
 
@@ -257,6 +259,13 @@ span::selection {
     background-position: center;
     background-size: cover;
     background-image: url('../images/1.webp');
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+
 }
 
 @media all and (max-width:575px) {
@@ -275,9 +284,45 @@ span::selection {
         font-size: 20px;
     }
 
+    .section1 {
+        width: 229px;
+    }
+
     .container5 {
         top: 540px;
     }
+
+    .section2 {
+        width: 229px;
+    }
+
+    .section3 {
+        width: 229px;
+    }
+
+    .section4 {
+        width: 229px;
+    }
+
+    .section5 {
+        width: 229px;
+    }
+
+    .progress1 {
+        width: 200px;
+    }
+
+    .author p {
+        width: 171px;
+        height: 592px;
+    }
+
+    .site-section {
+        width: 100%;
+        height: 2800px;
+    }
+
+
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -327,6 +372,11 @@ span::selection {
     .skill {
         width: 460px;
     }
+
+    .site-section {
+        width: 100%;
+        height: 1506px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -371,6 +421,16 @@ span::selection {
     .progress2 {
         width: 400px;
     }
+
+    .author p {
+        width: 220px;
+        height: 429px;
+    }
+
+    .site-section {
+        width: 100%;
+        height: 1281px;
+    }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -398,6 +458,12 @@ span::selection {
     .progress2 {
         width: 400px;
     }
+
+    .author p {
+        width: 340px;
+        height: 266px;
+    }
+
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {}
