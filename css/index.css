@@ -1,3 +1,27 @@
+.navbar {
+    top: 0px;
+}
+
+.navbar-fs {
+    letter-spacing: 2px;
+}
+
+.navbar2 {
+    letter-spacing: 3px;
+    border: 2px solid white;
+    color: white;
+    padding: 7px 22px;
+    font-weight: 100;
+}
+
+/* .navbar2:hover{
+    color: white;
+} */
+
+.navbar-fs {
+    font-size: 14px;
+}
+
 p {
     font-weight: 100;
 }
@@ -206,10 +230,6 @@ span::selection {
     color: #2c3e50;
 }
 
-.progress2 {
-    width: 600px;
-}
-
 .skill2 {
     width: 100px;
 }
@@ -268,17 +288,17 @@ span::selection {
 
 }
 
-.services p:first-of-type{
+.services p:first-of-type {
     font-size: 20px;
     color: rgb(44, 62, 80);
     font-weight: 100;
 }
 
-.services p:last-of-type{
+.services p:last-of-type {
     color: rgb(121, 138, 154);
 }
 
-.services2{
+.services2 {
     width: 100px;
     height: 100px;
     background-color: #57d131;
@@ -291,6 +311,37 @@ span::selection {
 }
 
 @media all and (max-width:575px) {
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar2 {
+        border: 2px solid black;
+        color: black;
+        padding: 3px 10px;
+        font-size: 18px;
+    }
+
+    .section1 p {
+        right: 22px;
+    }
+
+    .section2 p {
+        right: -5px;
+    }
+
+    .section3 p {
+        right: -5px;
+    }
+
+    .section4 p {
+        right: 15px;
+    }
+
+    .section5 p {
+        right: 5px;
+    }
 
     .container3 {
         width: 250px;
@@ -330,10 +381,6 @@ span::selection {
         width: 229px;
     }
 
-    .progress1 {
-        width: 200px;
-    }
-
     .author p {
         width: 171px;
         height: 592px;
@@ -348,6 +395,33 @@ span::selection {
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar2 {
+        border: 2px solid black;
+        color: black;
+        padding: 3px 10px;
+        font-size: 18px;
+    }
+
+    .section1 p {
+        right: 55px;
+    }
+
+    .section3 p {
+        right: 0px;
+    }
+
+    .section4 p {
+        right: 40px;
+    }
+
+    .section5 p {
+        right: 20px;
+    }
 
     .container3 {
         width: 550px;
@@ -387,10 +461,6 @@ span::selection {
         width: 433px;
     }
 
-    .progress1 {
-        width: 460px;
-    }
-
     .skill {
         width: 460px;
     }
@@ -402,6 +472,37 @@ span::selection {
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar2 {
+        border: 2px solid black;
+        color: black;
+        padding: 3px 10px;
+        font-size: 18px;
+    }
+
+    .section1 p {
+        right: 55px;
+    }
+
+    .section2 p {
+        right: -5px;
+    }
+
+    .section3 p {
+        right: 0px;
+    }
+
+    .section4 p {
+        right: 40px;
+    }
+
+    .section5 p {
+        right: 25px;
+    }
 
     .container3 {
         width: 500px;
@@ -440,10 +541,6 @@ span::selection {
         width: 433px;
     }
 
-    .progress2 {
-        width: 400px;
-    }
-
     .author p {
         width: 220px;
         height: 429px;
@@ -456,6 +553,22 @@ span::selection {
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
+    .section1 p {
+        right: 75px;
+    }
+
+    .section4 p {
+        right: 60px;
+    }
+
+    .navbar {
+        top: 20px;
+    }
+
+    .navbar2 {
+        position: absolute;
+        left: 30px;
+    }
 
     .section1 {
         width: 586px;
@@ -477,10 +590,6 @@ span::selection {
         width: 586px;
     }
 
-    .progress2 {
-        width: 400px;
-    }
-
     .author p {
         width: 340px;
         height: 266px;
@@ -488,6 +597,26 @@ span::selection {
 
 }
 
-@media all and (min-width:1200px) and (max-width:1399px) {}
+@media all and (min-width:1200px) and (max-width:1399px) {
 
-@media all and (min-width:1400px) {}
+    .navbar {
+        top: 20px;
+    }
+
+    .navbar2 {
+        position: absolute;
+        left: 100px;
+    }
+}
+
+@media all and (min-width:1400px) {
+
+    .navbar {
+        top: 20px;
+    }
+
+    .navbar2 {
+        position: absolute;
+        left: 200px;
+    }
+}
