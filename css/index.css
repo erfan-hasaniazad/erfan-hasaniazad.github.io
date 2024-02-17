@@ -1,46 +1,36 @@
-.resume{
-    width: 100%;
-    height: 1496px;
+.blog {
+    width: 349px;
+    transition: all 400ms ease 0s;
 }
 
-.box2{
-    width: 25%;
+.blog:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.resume1 p{
-    font-size: 31px;
+.blog2 a:nth-of-type(2) {
+    width: 85%;
     color: rgb(44, 62, 80);
+    font-weight: 100;
+    font-size: 18px;
+    transition: all 100ms ease 40ms;
 }
 
-.resume2{
-    width: 540px;
-    height: 264px;
-    transition: all 100ms ease 50ms;
+.blog2 a:nth-of-type(2):hover {
+    color: #57d131;
 }
 
-.resume2:hover{
-    outline: 4px solid #57d131;
+.blog2 a:nth-of-type(3) {
+    width: 85%;
+    color: rgb(150, 163, 176);
+    font-weight: 100;
+    font-size: 14px;
+    transition: all 100ms ease 40ms;
 }
 
-.resume2 p:first-of-type{
-    color: rgb(179, 189, 198);
-    font-size: 12px;
+.blog2 a:nth-of-type(3):hover {
+    color: #57d131;
 }
 
-.resume2 p:nth-of-type(2){
-    font-size: 28px;
-    color: rgb(44, 62, 80);
-    line-height: 30px;
-}
-
-.resume2 p:nth-of-type(3){
-    color: rgb(121, 138, 154);
-}
-
-.resume2 p:nth-of-type(4){
-    color: rgb(44, 62, 80);
-    font-size: 20px;
-}
 /* ************************** */
 
 .navbar {
@@ -432,7 +422,7 @@ li::selection {
     width: 349px;
 }
 
-.portfolio p:first-of-type{
+.portfolio p:first-of-type {
     margin-top: 10px;
     color: rgb(44, 62, 80);
     font-size: 20px;
@@ -442,6 +432,50 @@ li::selection {
     margin-top: -10px;
     color: rgb(204, 204, 204);
     font-size: 12px;
+}
+
+.resume {
+    width: 100%;
+    height: 1496px;
+}
+
+.resume1 {
+    width: 555px;
+}
+
+.resume1 p {
+    font-size: 31px;
+    color: rgb(44, 62, 80);
+}
+
+.resume2 {
+    width: 540px;
+    height: 264px;
+    transition: all 100ms ease 50ms;
+}
+
+.resume2:hover {
+    outline: 4px solid #57d131;
+}
+
+.resume2 p:first-of-type {
+    color: rgb(179, 189, 198);
+    font-size: 12px;
+}
+
+.resume2 p:nth-of-type(2) {
+    font-size: 28px;
+    color: rgb(44, 62, 80);
+    line-height: 30px;
+}
+
+.resume2 p:nth-of-type(3) {
+    color: rgb(121, 138, 154);
+}
+
+.resume2 p:nth-of-type(4) {
+    color: rgb(44, 62, 80);
+    font-size: 20px;
 }
 
 @media all and (max-width:575px) {
@@ -554,14 +588,18 @@ li::selection {
         padding: 0px 15px;
     }
 
-    .resume{
+    .resume {
         height: 3400px;
     }
 
-    .resume2{
+    .resume2 {
         width: 534px;
         height: 352px;
     }
+
+    .blog{
+        width: 505px;
+    } 
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -673,13 +711,21 @@ li::selection {
         padding: 0px;
     }
 
-    .resume{
+    .resume {
         height: 2650px;
     }
 
-    .resume2{
+    .resume1 {
         width: 510px;
     }
+
+    .resume2 {
+        width: 510px;
+    }
+
+    .blog{
+        width: 246px;
+    } 
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -779,14 +825,22 @@ li::selection {
         padding: 0px;
     }
 
-    .resume{
+    .resume {
         height: 1850px;
     }
 
-    .resume2{
+    .resume1 {
+        width: 345px;
+    }
+
+    .resume2 {
         width: 330px;
         height: 358px;
     }
+
+    .blog{
+        width: 330px;
+    } 
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -835,17 +889,21 @@ li::selection {
     .section-features li:nth-of-type(3) {
         width: 60%;
     }
-    
+
     .portfolio {
         width: 289px;
         padding: 0px;
     }
 
-    .resume{
+    .resume {
         height: 1600px;
     }
 
-    .resume2{
+    .resume1 {
+        width: 465px;
+    }
+
+    .resume2 {
         width: 450px;
         height: 298px;
     }
@@ -861,7 +919,8 @@ li::selection {
         position: absolute;
         left: 100px;
     }
-    .portfolio{
+
+    .portfolio {
         padding: 0px;
     }
 }
@@ -877,7 +936,7 @@ li::selection {
         left: 200px;
     }
 
-    .portfolio{
+    .portfolio {
         padding: 0px;
     }
 }
