@@ -1,52 +1,26 @@
-.work-section {
-    height: 977px;
+.box6 {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: relative;
+    rotate: 180deg;
+    perspective: 15px;
+    background-color: red;
+    margin: 20px auto;
 }
 
-.work-section1{
-    width: 655px;
+.box7 {
+    height: 20px;
+    width: 20px;
+    background: blue;
+    position: absolute;
+    transform-origin: right;
+    transform-style: preserve-3d;
+    transform: rotatex(65deg);
 }
 
-.work-section1 p:first-of-type {
-    font-size: 28px;
-}
-
-.work-section2 {
-    font-size: 12px;
-    width: 475px;
-}
-
-.work-section2 p:first-of-type {
-    font-size: 28px;
-}
-
-.work-section2 p:nth-of-type(3) {
-    margin-top: -10px;
-    color: rgb(121, 138, 154);
-}
-
-.work-section2 p:nth-of-type(5) {
-    margin-top: -10px;
-    color: rgb(121, 138, 154);
-}
-
-.work-section2 p:nth-of-type(7) {
-    margin-top: -10px;
-    color: rgb(121, 138, 154);
-}
-
-.work-section2 p:nth-of-type(9) {
-    margin-top: -10px;
-    color: rgb(121, 138, 154);
-}
-
-.work-section3 {
-    width: 100%;
-}
-
-.box2 {
-    width: 100%;
-    height: 48px;
-    border-radius: 5px;
+.navbar a:first-of-type {
+    top: 3px;
 }
 
 /* ************************** */
@@ -201,15 +175,30 @@ li::selection {
     background-image: linear-gradient(to right, #57d131 0%, #57d131 85%, #e9ecef 85%, #e9ecef 100%);
 }
 
-.section1 p {
-    margin-top: 10px;
-    right: 90px;
-    position: absolute;
-    background-color: #57d131;
+.progress-bar1 {
     width: 26px;
     height: 14px;
+    background-color: #57d131;
+    margin: 20px auto;
     border-radius: 2px;
+    top: -8px;
+    right: 94px;
+    line-height: 14px;
+}
+
+.section1 p {
     font-size: 10px;
+}
+
+.progre {
+    width: 10px;
+    height: 10px;
+    background-color: #57d131;
+    transform: rotateZ(135deg);
+    right: 50%;
+    bottom: 7px;
+    margin-right: -5px;
+    z-index: -1;
 }
 
 .section2 {
@@ -218,17 +207,20 @@ li::selection {
     background-image: linear-gradient(to right, #57d131 0%, #57d131 98%, #e9ecef 98%, #e9ecef 100%);
 }
 
-.section2 p {
-    margin-top: 10px;
-    right: 0px;
-    position: absolute;
-    background-color: #57d131;
+.progress-bar2 {
     width: 26px;
     height: 14px;
+    background-color: #57d131;
+    margin: 20px auto;
     border-radius: 2px;
-    font-size: 10px;
+    top: -8px;
+    right: -0px;
+    line-height: 14px;
 }
 
+.section2 p {
+    font-size: 10px;
+}
 
 .section3 {
     width: 701px;
@@ -236,14 +228,18 @@ li::selection {
     background-image: linear-gradient(to right, #57d131 0%, #57d131 97%, #e9ecef 97%, #e9ecef 100%);
 }
 
-.section3 p {
-    margin-top: 10px;
-    right: 10px;
-    position: absolute;
-    background-color: #57d131;
+.progress-bar3 {
     width: 26px;
     height: 14px;
+    background-color: #57d131;
+    margin: 20px auto;
     border-radius: 2px;
+    top: -8px;
+    right: 10px;
+    line-height: 14px;
+}
+
+.section3 p {
     font-size: 10px;
 }
 
@@ -253,14 +249,18 @@ li::selection {
     background-image: linear-gradient(to right, #57d131 0%, #57d131 88%, #e9ecef 88%, #e9ecef 100%);
 }
 
-.section4 p {
-    margin-top: 10px;
-    right: 70px;
-    position: absolute;
-    background-color: #57d131;
+.progress-bar4 {
     width: 26px;
     height: 14px;
+    background-color: #57d131;
+    margin: 20px auto;
     border-radius: 2px;
+    top: -8px;
+    right: 72px;
+    line-height: 14px;
+}
+
+.section4 p {
     font-size: 10px;
 }
 
@@ -270,14 +270,18 @@ li::selection {
     background-image: linear-gradient(to right, #57d131 0%, #57d131 92%, #e9ecef 92%, #e9ecef 100%);
 }
 
-.section5 p {
-    margin-top: 10px;
-    right: 40px;
-    position: absolute;
-    background-color: #57d131;
+.progress-bar5 {
     width: 26px;
     height: 14px;
+    background-color: #57d131;
+    margin: 20px auto;
     border-radius: 2px;
+    top: -8px;
+    right: 43px;
+    line-height: 14px;
+}
+
+.section5 p {
     font-size: 10px;
 }
 
@@ -398,23 +402,23 @@ li::selection {
     margin-left: 25px;
 }
 
-.section-features p:first-of-type {
+.features p:first-of-type {
     width: 43%;
     font-size: 28px;
 }
 
-.section-features p:last-of-type {
+.features p:last-of-type {
     width: 65%;
     color: rgb(121, 138, 154);
 }
 
-.section-features li {
+.features li {
     list-style-type: none;
     color: rgb(121, 138, 154);
     font-weight: 100;
 }
 
-.section-features i {
+.features i {
     margin-right: 20px;
     margin-left: -32px;
     color: #57d131;
@@ -499,10 +503,11 @@ li::selection {
 .blog {
     width: 349px;
     transition: all 400ms ease 0s;
+    /* border: 2px solid orange; */
 }
 
 .blog:hover {
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1), -0px -0px 25px rgba(0, 0, 0, 0.1);
 }
 
 .blog2 a:nth-of-type(2) {
@@ -529,6 +534,96 @@ li::selection {
     color: #57d131;
 }
 
+.work-section {
+    height: 977px;
+}
+
+.work-section1 {
+    width: 655px;
+}
+
+.work-section1 p:first-of-type {
+    font-size: 28px;
+}
+
+.work-section2 {
+    font-size: 12px;
+    width: 475px;
+}
+
+.work-section2 p:first-of-type {
+    font-size: 28px;
+}
+
+.work-section2 p:nth-of-type(3) {
+    margin-top: -10px;
+    color: rgb(121, 138, 154);
+    font-size: 16px;
+}
+
+.work-section2 p:nth-of-type(5) {
+    margin-top: -10px;
+    color: rgb(121, 138, 154);
+    font-size: 16px;
+}
+
+.work-section2 p:nth-of-type(7) {
+    margin-top: -10px;
+    color: rgb(121, 138, 154);
+    font-size: 16px;
+}
+
+.work-section2 p:nth-of-type(9) {
+    margin-top: -10px;
+    color: rgb(121, 138, 154);
+    font-size: 16px;
+}
+
+.work-section2 p:nth-of-type(even){
+    margin-top: 20px;
+    /* color: rgb(0, 0, 0); */
+    letter-spacing: 1px;
+}
+
+.site-form{
+    width: 100%;
+    height: 48px;
+}
+
+.site-form1{
+    width: 181px;
+    height: 57px;
+    background-color: #4ebe2a;
+    letter-spacing: 1px;
+}
+
+.site-form1:hover{
+    filter: brightness(95%);
+}
+
+
+.footer i{
+    color: #4ebe2a;
+    font-size: 22px;
+}
+
+.footer a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(179, 189, 198);
+    line-height: 60px;
+    text-align: center;
+}
+
+.site-footer a:hover i{
+    filter: brightness(90%);
+}
+
+.site-footer2 p{
+    color: rgb(121, 138, 154);
+}
+
 @media all and (max-width:575px) {
 
     .navbar {
@@ -540,26 +635,6 @@ li::selection {
         color: black;
         padding: 3px 10px;
         font-size: 18px;
-    }
-
-    .section1 p {
-        right: 22px;
-    }
-
-    .section2 p {
-        right: -5px;
-    }
-
-    .section3 p {
-        right: -5px;
-    }
-
-    .section4 p {
-        right: 15px;
-    }
-
-    .section5 p {
-        right: 5px;
     }
 
     .container3 {
@@ -610,19 +685,19 @@ li::selection {
         height: 2800px;
     }
 
-    .section-features p:first-of-type {
+    .features p:first-of-type {
         width: 100%;
     }
 
-    .section-features p:last-of-type {
+    .features p:last-of-type {
         width: 100%;
     }
 
-    .section-features li:nth-of-type(2) {
+    .features li:nth-of-type(2) {
         width: 100%;
     }
 
-    .section-features li:nth-of-type(3) {
+    .features li:nth-of-type(3) {
         width: 100%;
     }
 
@@ -630,7 +705,7 @@ li::selection {
         line-height: 80px;
     }
 
-    .section-features {
+    .features {
         order: 1;
     }
 
@@ -651,6 +726,60 @@ li::selection {
     .blog {
         width: 505px;
     }
+
+    .progress-bar1 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 22px;
+    }
+
+    .progress-bar2 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: -8px;
+    }
+
+    .progress-bar3 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: -5px;
+    }
+
+    .progress-bar4 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 15px;
+    }
+
+    .progress-bar5 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 7px;
+    }
+
+    .work-section{
+        height: 1100px;
+    }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -664,22 +793,6 @@ li::selection {
         color: black;
         padding: 3px 10px;
         font-size: 18px;
-    }
-
-    .section1 p {
-        right: 55px;
-    }
-
-    .section3 p {
-        right: 0px;
-    }
-
-    .section4 p {
-        right: 40px;
-    }
-
-    .section5 p {
-        right: 20px;
     }
 
     .container3 {
@@ -729,19 +842,19 @@ li::selection {
         height: 1506px;
     }
 
-    .section-features p:first-of-type {
+    .features p:first-of-type {
         width: 100%;
     }
 
-    .section-features p:last-of-type {
+    .features p:last-of-type {
         width: 100%;
     }
 
-    .section-features li:nth-of-type(2) {
+    .features li:nth-of-type(2) {
         width: 100%;
     }
 
-    .section-features li:nth-of-type(3) {
+    .features li:nth-of-type(3) {
         width: 100%;
     }
 
@@ -753,7 +866,7 @@ li::selection {
         line-height: 80px;
     }
 
-    .section-features {
+    .features {
         order: 1;
     }
 
@@ -777,6 +890,56 @@ li::selection {
     .blog {
         width: 246px;
     }
+
+    .progress-bar1 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 53px;
+    }
+
+    .progress-bar2 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: -4px;
+    }
+
+    .progress-bar3 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 0px;
+    }
+
+    .progress-bar4 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 40px;
+    }
+
+    .progress-bar5 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 22px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -790,26 +953,6 @@ li::selection {
         color: black;
         padding: 3px 10px;
         font-size: 18px;
-    }
-
-    .section1 p {
-        right: 55px;
-    }
-
-    .section2 p {
-        right: -5px;
-    }
-
-    .section3 p {
-        right: 0px;
-    }
-
-    .section4 p {
-        right: 40px;
-    }
-
-    .section5 p {
-        right: 25px;
     }
 
     .container3 {
@@ -859,15 +1002,15 @@ li::selection {
         height: 1281px;
     }
 
-    .section-features p:first-of-type {
+    .features p:first-of-type {
         width: 70%;
     }
 
-    .section-features li:nth-of-type(2) {
+    .features li:nth-of-type(2) {
         width: 50%;
     }
 
-    .section-features li:nth-of-type(3) {
+    .features li:nth-of-type(3) {
         width: 65%;
     }
 
@@ -893,7 +1036,7 @@ li::selection {
         width: 330px;
     }
 
-    .work-section1{
+    .work-section1 {
         width: 420px;
     }
 
@@ -901,16 +1044,59 @@ li::selection {
         font-size: 12px;
         width: 300px;
     }
+
+    .progress-bar1 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 53px;
+    }
+
+    .progress-bar2 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: -4px;
+    }
+
+    .progress-bar3 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 0px;
+    }
+
+    .progress-bar4 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 40px;
+    }
+
+    .progress-bar5 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 22px;
+    }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
-    .section1 p {
-        right: 75px;
-    }
-
-    .section4 p {
-        right: 60px;
-    }
 
     .navbar {
         top: 20px;
@@ -946,7 +1132,7 @@ li::selection {
         height: 266px;
     }
 
-    .section-features li:nth-of-type(3) {
+    .features li:nth-of-type(3) {
         width: 60%;
     }
 
@@ -968,17 +1154,67 @@ li::selection {
         height: 298px;
     }
 
-    .work-section2{
+    .work-section2 {
         width: 350px;
     }
 
-    .work-section1{
+    .work-section1 {
         width: 560px;
     }
 
     .work-section2 {
         font-size: 12px;
-        width: 400px;;
+        width: 400px;
+    }
+
+    .progress-bar1 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 75px;
+    }
+
+    .progress-bar2 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: -0px;
+    }
+
+    .progress-bar3 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 5px;
+    }
+
+    .progress-bar4 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 58px;
+    }
+
+    .progress-bar5 {
+        width: 26px;
+        height: 14px;
+        background-color: #57d131;
+        margin: 20px auto;
+        border-radius: 2px;
+        top: -5px;
+        right: 34px;
     }
 
 }
@@ -997,7 +1233,7 @@ li::selection {
     .portfolio {
         padding: 0px;
     }
-    
+
 }
 
 @media all and (min-width:1400px) {
