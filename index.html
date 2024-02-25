@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-12 p-0">
                 <div class="position-relative container1">
-                    <div class="box1"></div>
+                    <div class="site-hero"></div>
                     <div class="position-absolute container2"></div>
                     <p class="position-absolute text-center container3">Hello, I'm <span>Erfan Hasani</span></p>
                     <p class="position-absolute text-center container4">A Product Designer working at Facebook.
@@ -31,7 +31,7 @@
                             ME</button></a>
                     <nav class="navbar navbar-expand-lg position-absolute w-100 navbar">
                         <div class="container-fluid">
-                            <a class="navbar-brand navbar2 me-3 me-sm-4 order-1" href="#">ALIAS</a>
+                            <a class="navbar-brand navbar2 position-absolute me-3 me-sm-4 order-1" href="#">ALIAS</a>
                             <button class="navbar-toggler ms-1 ms-sm-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -43,22 +43,22 @@
                                         <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">ABOUT</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#about">ABOUT</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">SERVICES</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#services">SERVICES</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">PORTFOLIO</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#portfolio">PORTFOLIO</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">RESUME</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#resume">RESUME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">BLOG</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#blog">BLOG</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#">CONTACT</a>
+                                        <a class="nav-link ps-lg-4 px-md-3 navbar-fs" href="#contact">CONTACT</a>
                                     </li>
                                 </ul>
                             </div>
@@ -70,21 +70,21 @@
     </div>
 
     <div class="my-5 container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <img src="images/2.webp" class="w-100">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6 p-sm-0 overflow-hidden mx-auto heading">
+                <img src="images/13.jpg" class="w-100">
             </div>
-            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center heading1">
-                <div class="w-75 ms-lg-5 heading3">
+            <div id="about" class="col-12 col-lg-6 p-2 p-sm-0 px-md-3 heading1">
+                <div>
                     <div class="mt-5 mb-lg-1 heading2"></div>
                     <P>About <span> Me</span></P>
-                    <P>Separated they live in Bookmarksgrove right at <br> the coast of the Semantics, a large language
-                        <br>
+                    <P>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+
                         ocean.
                     </P>
-                    <P class="mb-5">A small river named Duden flows by their place and supplies <br> it with the
+                    <P class="mb-5">A small river named Duden flows by their place and supplies it with the
                         necessary
-                        regelialia. It is a paradisematic country, <br> in which roasted parts of sentences fly into
+                        regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
                         your
                         mouth.</P>
                     <button class="border-0 flex-column-reverse rounded-pill text-white">HIRE ME</button>
@@ -209,7 +209,7 @@
         </div>
     </div>
 
-    <div class="w-75 container">
+    <div id="services" class="w-75 container">
         <div class="row">
             <div class="col-12 site-section2">
                 <div class="site-section1 mt-5 mb-2"></div>
@@ -283,9 +283,9 @@
     </div>
 
     <div class="mt-5 container">
-        <div class="d-flex justify-content-center row">
-            <div class="col-12 col-md-6">
-                <img src="images/7.webp" class="w-100">
+        <div class="d-flex justify-content-lg-center row">
+            <div class="col-12 col-md-6 features1">
+                <img src="images/7.webp" class="rounded-3 w-100">
             </div>
             <div class="col-12 col-md-6 features">
                 <p>Big Benefits for Small Business</p>
@@ -314,13 +314,13 @@
                     <li><i class="bi bi-check-square-fill"></i>Roasted parts of sentences fly into your mouth</li>
                 </ul>
             </div>
-            <div class="col-12 mt-5 mt-lg-5 mt-xl-5 col-md-6">
-                <img src="images/7.webp" class="w-100">
+            <div class="col-12 mt-5 mt-lg-5 mt-xl-5 mb-lg-5 col-md-6 features1">
+                <img src="images/7.webp" class="rounded-3 w-100">
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div id="portfolio" class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="progress1">
@@ -345,34 +345,34 @@
 
     <div class="container">
         <div class="row mt-5 d-flex justify-content-center">
-            <div class="col-12 col-md-4 mx-xxl-3 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3  portfolio">
                 <img src="images/9.webp" class="w-100">
                 <p class="text-center">Square Box Mockup</p>
                 <p class="text-center">MOCKUP</p>
             </div>
-            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0  portfolio">
                 <img src="images/10.webp" class="w-100">
                 <p class="text-center">Product Box Package Mockup</p>
                 <p class="text-center">MOCKUP</p>
             </div>
-            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0  portfolio">
                 <img src="images/11.webp" class="w-100">
                 <p class="text-center">Creative Package Design</p>
                 <p class="text-center">PACKAGING</p>
             </div>
         </div>
         <div class="row mt-5 d-flex justify-content-center">
-            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0  portfolio">
                 <img src="images/12.webp" class="w-100">
                 <p class="text-center">Packaging Brand</p>
                 <p class="text-center">PACKAGING</p>
             </div>
-            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0  portfolio">
                 <img src="images/13.webp" class="w-100">
                 <p class="text-center">Isometric 3D Extrusion</p>
                 <p class="text-center">TYPOGRAPHY</p>
             </div>
-            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0 portfolio">
+            <div class="col-12 col-md-4 mx-xxl-3 ms-sm-4 ms-0  portfolio">
                 <img src="images/14.webp" class="w-100">
                 <p class="text-center">White Space Photography</p>
                 <p class="text-center">pHOTOGRAPHY</p>
@@ -380,7 +380,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-light mt-5 resume">
+    <div id="resume" class="container-fluid bg-light mt-5 resume">
         <div class="row">
             <div class="col-12 site-section2">
                 <div class="site-section1 mt-5 mb-2"></div>
@@ -453,7 +453,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div id="blog" class="container-fluid">
         <div class="row">
             <div class="col-12 site-section2">
                 <div class="site-section1 mt-5 mb-2"></div>
@@ -462,9 +462,9 @@
         </div>
     </div>
 
-    <div class="container d-sm-flex justify-content-center">
+    <div class="container d-sm-flex justify-content-center border border-1 border-gray blog3">
         <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 p-0 px-3 px-sm-0 ms-0 ms-sm-4 blog">
+            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 p-0 mx-auto blog">
                 <a href="#">
                     <img src="images/15.webp" class="w-100">
                     <div class="border border-1 border-gray w-100 px-4 py-5 blog2">
@@ -475,7 +475,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 p-0 px-3 px-sm-0 ms-0 ms-sm-4 blog">
+            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 p-0 ms-sm-4 mx-auto blog">
                 <a href="#">
                     <img src="images/16.webp" class="w-100">
                     <div class="border border-1 border-gray w-100 px-4 py-5 blog2">
@@ -486,7 +486,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 p-0 px-3 px-sm-0 ms-0 ms-sm-4 blog">
+            <div class="col-12 col-sm-6 col-lg-4 mt-4 mb-3 ms-lg-4 p-0 mx-auto mx-sm-2 blog">
                 <a href="#">
                     <img src="images/17.webp" class="w-100">
                     <div class="border border-1 border-gray w-100 px-4 py-5 blog2">
@@ -501,7 +501,7 @@
     </div>
 
 
-    <div class="container-fluid mt-5 bg-light work-section">
+    <div id="contact" class="container-fluid mt-5 bg-light work-section">
         <div class="row">
             <div class="col-12 site-section2 mt-4">
                 <div class="site-section1 mt-5 mb-2"></div>
