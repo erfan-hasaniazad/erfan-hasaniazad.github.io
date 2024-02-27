@@ -19,23 +19,17 @@
     transform: rotatex(65deg);
 } */
 
-.heading {
-    width: 602px;
-}
 
-.heading1 {
-    width: 495px;
+/* ************************** */
+
+
+.navbar {
+    top: 0px;
 }
 
 .navbar a:first-of-type {
     top: 0px;
     color: white;
-}
-
-/* ************************** */
-
-.navbar {
-    top: 0px;
 }
 
 .navbar-fs {
@@ -120,7 +114,15 @@ li::selection {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.heading2 {
+.heading {
+    width: 502px;
+}
+
+.heading1 {
+    width: 495px;
+}
+
+.line2 {
     width: 45px;
     height: 2px;
     background-color: #57d131;
@@ -295,6 +297,10 @@ li::selection {
     font-weight: bold;
 }
 
+.progress1 {
+    width: 285px;
+}
+
 .progress1 p {
     font-weight: 100;
     font-size: 30px;
@@ -311,7 +317,7 @@ li::selection {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.site-section1 {
+.line {
     margin: 0px auto;
     width: 45px;
     height: 2px;
@@ -420,7 +426,7 @@ li::selection {
 }
 
 .features p:last-of-type {
-   
+
     color: rgb(121, 138, 154);
 }
 
@@ -434,13 +440,6 @@ li::selection {
     margin-right: 20px;
     margin-left: -32px;
     color: #57d131;
-}
-
-.section-heading {
-    margin: 0px auto;
-    width: 45px;
-    height: 1.5px;
-    background-color: #4ebe2a;
 }
 
 .filters2 a {
@@ -469,7 +468,6 @@ li::selection {
 }
 
 .resume {
-    width: 100%;
     height: 1496px;
 }
 
@@ -515,13 +513,10 @@ li::selection {
 .blog {
     width: 349px;
     transition: all 400ms ease 0s;
-    border: 2px solid orange;
 }
 
 .blog:hover {
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1), -0px -0px 25px rgba(0, 0, 0, 0.1);
-    padding-top: 100px;
-    border: 2px solid brown;
 }
 
 .blog2 a:nth-of-type(2) {
@@ -638,7 +633,7 @@ li::selection {
     color: rgb(121, 138, 154);
 }
 
-@media all and (max-width:575px) {
+@media all and (max-width:576px) {
 
     .navbar {
         background-color: white;
@@ -806,7 +801,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:576px) and (max-width:767px) {
+@media all and (min-width:576px) and (max-width:768px) {
 
     .navbar {
         background-color: white;
@@ -976,7 +971,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:768px) and (max-width:991px) {
+@media all and (min-width:768px) and (max-width:992px) {
 
     .navbar {
         background-color: white;
@@ -1022,11 +1017,11 @@ li::selection {
     }
 
     .heading {
-        width: 690px;
+        width: 590px;
     }
 
     .heading1 {
-        width: 720px;
+        width: 590px;
     }
 
     .section1 {
@@ -1153,7 +1148,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:992px) and (max-width:1199px) {
+@media all and (min-width:992px) and (max-width:1200px) {
 
     .navbar {
         top: 20px;
@@ -1164,7 +1159,7 @@ li::selection {
     }
 
     .heading {
-        width: 497px;
+        width: 430px;
     }
 
     .heading1 {
@@ -1174,7 +1169,7 @@ li::selection {
     .features1 {
         width: 610px;
     }
-    
+
     .features {
         width: 319px;
     }
@@ -1295,7 +1290,7 @@ li::selection {
 
 }
 
-@media all and (min-width:1200px) and (max-width:1399px) {
+@media all and (min-width:1200px) and (max-width:1400px) {
 
     .navbar {
         top: 20px;
