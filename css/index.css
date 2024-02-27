@@ -633,7 +633,7 @@ li::selection {
     color: rgb(121, 138, 154);
 }
 
-@media all and (max-width:576px) {
+@media all and (max-width:575.5px) {
 
     .navbar {
         background-color: white;
@@ -801,7 +801,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:576px) and (max-width:768px) {
+@media all and (min-width:576px) and (max-width:767.5px) {
 
     .navbar {
         background-color: white;
@@ -971,7 +971,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:768px) and (max-width:992px) {
+@media all and (min-width:768px) and (max-width:991.5px) {
 
     .navbar {
         background-color: white;
@@ -1148,7 +1148,7 @@ li::selection {
     }
 }
 
-@media all and (min-width:992px) and (max-width:1200px) {
+@media all and (min-width:992px) and (max-width:1199.5px) {
 
     .navbar {
         top: 20px;
@@ -1290,7 +1290,7 @@ li::selection {
 
 }
 
-@media all and (min-width:1200px) and (max-width:1400px) {
+@media all and (min-width:1200px) and (max-width:1399.5px) {
 
     .navbar {
         top: 20px;
@@ -1311,7 +1311,7 @@ li::selection {
     .navbar {
         top: 20px;
     }
-
+    
     .navbar2 {
         left: 200px;
     }
